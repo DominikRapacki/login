@@ -1,0 +1,68 @@
+.main-div {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container {
+  padding: 140px 200px 140px 0px;
+  /* float: right;
+  padding: 12% 10% 5% 0; */
+  display: flex;
+  flex-flow: column wrap;
+  /* max-width: 400px; */
+}
+
+form {
+  max-width: 240px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.container img {
+  width: 120px;
+  height: 90px;
+}
+
+label {
+  font-size: 13px;
+  font-family: Lora;
+}
+
+input {
+  margin: 0;
+  width: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  outline: 0;
+  margin-bottom: 20px !important;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  line-height: 1.21428571em;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 0.67857143em 1em;
+  background: #fff;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 0.28571429rem;
+  -webkit-transition: border-color 0.1s ease, -webkit-box-shadow 0.1s ease;
+  transition: border-color 0.1s ease, -webkit-box-shadow 0.1s ease;
+  transition: box-shadow 0.1s ease, border-color 0.1s ease;
+  transition: box-shadow 0.1s ease, border-color 0.1s ease,
+    -webkit-box-shadow 0.1s ease;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-div {
+    background-position: 70% 20% !important;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .main-div {
+    background-position: 70% 20% !important;
+  }
+}
